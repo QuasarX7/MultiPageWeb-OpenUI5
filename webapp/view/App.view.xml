@@ -1,9 +1,21 @@
 <mvc:View
 	controllerName="it.quasar_x7.openui5.sito.controller.App"
-	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true">
-	<Shell>
-		<App class="myAppDemoWT" id="app"/>
-	</Shell>
+	xmlns="sap.f"
+	xmlns:m="sap.m"
+	xmlns:layout= "sap.ui.layout"
+	height="100%">
+	<ShellBar
+			title="Menu"
+			homeIcon="./resources/images/logo.png"
+			showSearch="true"
+			showProductSwitcher="true"
+			>
+		<menu>
+			<m:Menu>
+				<m:MenuItem text="Flight booking" icon="sap-icon://flight" />
+				<m:MenuItem text="Car rental" icon="sap-icon://car-rental" />
+			</m:Menu>
+		</menu>
+	</ShellBar>
 </mvc:View>
