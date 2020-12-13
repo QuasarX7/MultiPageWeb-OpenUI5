@@ -1,21 +1,5 @@
-html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
- 	margin-right: 0.125rem
-}
-
-html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
- 	margin-left: 0.125rem
-}
-
-.myAppDemoWT .myCustomText {
-	display: inline-block;
-	font-weight: bold;
-}
-
-/*  ProductRating */
-.myAppDemoWTProductRating {
-	padding: 0.75rem;
-}
-
-.myAppDemoWTProductRating .sapMRI {
-	vertical-align: initial;
+/*Barra di navigazione*/
+.barraMenu.sapFShellBar {
+    background: black;
+    box-shadow: inset 0 -0.0925rem 0 0 #354a5f;
 }
