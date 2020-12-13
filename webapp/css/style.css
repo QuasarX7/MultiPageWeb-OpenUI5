@@ -3,3 +3,11 @@
     background: black;
     box-shadow: inset 0 -0.0925rem 0 0 #354a5f;
 }
+
+/*carousel */
+.sapMCrsl {
+    background-color: white !important;
+}
+.sapMText {
+    color:black !important;
+}
